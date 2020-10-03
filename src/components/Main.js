@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-
+//Electronics
 const Main = () => {                 // 1.created functional component //2. then created array of object  
     let [electronics] = useState([{ id: 1, type: 'mobile', name: 'Google Pixel', price: '$300', description: 'Best phone' }, 
     { id: 2, type: 'mobile', name: 'Oppo', price: '$350', description: 'Very costly plus waste of money' },
